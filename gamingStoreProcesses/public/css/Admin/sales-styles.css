@@ -1,0 +1,63 @@
+.name-product{
+    display: flex;
+    width: 31.7%;
+    height: 100%;
+    border: 1px solid purple;
+    background-color: black;
+}
+
+.amount-product{
+    display: flex;
+    width: 10%;
+    height: 100%;
+    border: 1px solid purple;
+    background-color: black;
+}
+
+.price-product{
+    display: flex;
+    width: 14.5%;
+    height: 100%;
+    border: 1px solid purple;
+    background-color: black;
+}
+
+.total-sale{
+    display: flex;
+    width: 15.2%;
+    height: 100%;
+    border: 1px solid purple;
+    background-color: black;
+}
+
+.name-product-info{
+    display: flex;
+    width: 31.7%;
+    height: 100%;
+    border: 1px solid black;
+    background-color: #CC00CC;
+}
+
+.amount-product-info{
+    display: flex;
+    width: 10%;
+    height: 100%;
+    border: 1px solid black;
+    background-color: #CC00CC;
+}
+
+.price-product-info{
+    display: flex;
+    width: 14.5%;
+    height: 100%;
+    border: 1px solid black;
+    background-color: #CC00CC;
+}
+
+.total-sale-info{
+    display: flex;
+    width: 15.2%;
+    height: 100%;
+    border: 1px solid black;
+    background-color: #CC00CC;
+}

@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    font-family: "Cambria";
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+}
+
+body a{
+    text-decoration: none;
+}
+
+/* Header */
+.header{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    border: 1px solid purple;
+}
+
+/* Nav Bar Company*/
+.nav-bar-company{
+    display: flex;
+    width: 70%;
+    height: 100%;
+    background-color: black;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-nav-company{
+    display: flex;
+    font-size: 18px;
+    color: white;
+    margin: 18px;
+}
+
+.item-nav-company:hover{
+    color: purple;
+}
+
+/* Nav Bar Users */
+.nav-bar-users{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    background-color: black;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.item-nav-users{
+    display: flex;
+    font-size: 18px;
+    margin: 18px;
+}
+
+.btn-login{
+    display: flex;
+    width: 180px;
+    height: 35px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+}
+
+.btn-register{
+    display: flex;
+    width: 180px;
+    height: 35px;
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: black
+}
+
+/* Banner Slide */
+.bannerSlide{
+    display: flex;
+    height: 800px;
+}
+
+/* Login */
+.cont-login{
+    display: flex;
+    width: 100%;
+    height: 900px;
+    background-color: black;
+    border: 1px solid purple;
+    background-image: url("https://img.freepik.com/premium-vector/dark-purple-abstract-background-that-represents-speed-is-decorated-with-dots-lines_49459-670.jpg");    justify-content: center;
+    align-items: center;
+}
+
+.form-login{
+    display: flex;
+    width: 40%;
+    height: 70%;
+    background-color: black;
+    border: 2px solid purple;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.form-login h1{
+    display: flex;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+
+.form-login label{
+    display: flex;
+    font-size: 20px;
+}
+
+
+.form-login input{
+    display: flex;
+    width: 50%;
+    height: 22px;
+    margin-bottom: 20px;
+}
+
+.form-login button{
+    display: flex;
+    width: 160px;
+    margin-top: 45px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.form-login a{
+    color: purple;
+    font-size: 15px;
+}
+
+.btn-purple{
+    display: flex;
+    height: 35px;
+    background-color: purple;
+    border: 1px solid black;
+    border-radius: 5px;
+}

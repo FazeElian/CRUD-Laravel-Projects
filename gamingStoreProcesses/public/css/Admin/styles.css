@@ -1,0 +1,236 @@
+body{
+    background-image: url("https://img.freepik.com/premium-vector/dark-purple-abstract-background-that-represents-speed-is-decorated-with-dots-lines_49459-670.jpg");
+}
+
+.user-name{
+    display: flex;
+    width: 200px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.user-name p{
+    display: flex;
+    color: white;
+    font-size: 18px;
+    margin-top: 7.5%;
+    margin-right: 10px;
+}
+
+.cerrar-sesion-text{
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.cerrar-sesion-text h6{
+    font-size: 17px;
+    margin-left: 9%;
+}
+
+/* General Info */
+.general-info{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    justify-content: center;
+    background-image: url("https://img.freepik.com/premium-vector/dark-purple-abstract-background-that-represents-speed-is-decorated-with-dots-lines_49459-670.jpg");
+    align-items: start;
+    background-color: black;
+}
+
+.text-general{
+    display: flex;
+    width: 80%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 150px;
+}
+
+.text-general h1{
+    font-size: 65px;
+    text-shadow: red inset;
+}
+
+.text-general h2{
+    font-size: 25px;
+}
+
+/* Section */
+.cont-section{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border: 1px solid purple;
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+.title-section{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text{
+    display: flex;
+    width: 70%;
+    height: 100%;
+    justify-content: start;
+    align-items: center;
+}
+
+.text h1{
+    display: flex;
+    color: white;
+    margin: 15px;
+    font-size: 35px;
+}
+
+.button-create{
+    display: flex;
+    width: auto;
+    height: 65%;
+    padding: 0 30px;
+    background-color: purple;
+    border: 1px solid black;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.button-create a{
+    font-size: 17px;
+    color: white;
+}
+
+/* Table */
+.cont-table{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: -25px;
+}
+
+.table-records{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.error-message-characters{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    color: red;
+}
+
+/* Search and filters */
+.search-filters{
+    display: flex;
+    width: 100%;
+    height: 35px;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont-select{
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+#select{
+    display: flex;
+    width: 50%;
+    font-size: 17px;
+    border: 1px solid purple;
+    background-color: black;
+    color: white;
+}
+
+.search-bar{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: end;
+}
+
+#search-bar{
+    display: flex;
+    width: 50%;
+    font-size: 17px;
+    border: 1px solid purple;
+    background-color: black;
+    color: white;
+}
+
+/* PDF */
+.btn-pdf{
+    display: flex;
+    width: 180px;
+    height: 65%;
+    padding: 0;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-right: -120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-pdf img{
+    width: 22px;
+    height: 22px;
+    margin-left: 5px;
+    margin-top: -2px;
+}
+
+.btn-pdf a{
+    font-size: 17px;
+    color: black;
+}
+
+/* Submit */
+.cont-btn-submit{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    padding: 50px;
+    padding-top: 1%;
+    justify-content: end;
+}
+
+.btn-submit{
+    display: flex;
+    width: auto;
+    height: 40px;
+    padding: 15px 30px;
+    background-color: purple;
+    border: 1px solid black;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    margin-right: 1.5%;
+    margin-top: -40px;
+}
+
+.btn-submit a{
+    color: white;
+}

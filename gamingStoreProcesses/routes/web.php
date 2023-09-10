@@ -1,13 +1,11 @@
 <?php
 
 use App\Http\Controllers\CategoryController;
-use App\Http\Controllers\FactureController;
 use App\Http\Controllers\ProductController;
-use App\Http\Controllers\SaleController;
 use Illuminate\Support\Facades\Route;
 
 // Imporación de controlador para generar PDF de ventas
-use App\Http\Controllers\SalePDFController;
+// use App\Http\Controllers\SalePDFController;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,12 +33,3 @@ Route::resource('products', ProductController::class)->middleware("auth");
 
 // Ruta Categorías Productos
 Route::resource('categories', CategoryController::class)->middleware("auth");
-
-// Ruta Ventas
-Route::resource('sales', SaleController::class)->middleware("auth");
-
-// Ruta Facturas
-Route::resource('factures', FactureController::class)->middleware("auth");
-
-// Ruta generación de PDF de Ventas
-Route::get('/sales/pdf', [SalePDFController::class, 'generatePDF'])->name('records-sales.pdf');

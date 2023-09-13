@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('template_title')
-    {{ $libro->name ?? "{{ __('Show') Libro" }}
+    {{ $libro->name ?? "{{ __('Ver') Libro" }}
 @endsection
 
 @section('content')
@@ -11,37 +11,31 @@
                 <div class="card">
                     <div class="card-header">
                         <div class="float-left">
-                            <span class="card-title">{{ __('Show') }} Libro</span>
-                        </div>
-                        <div class="float-right">
-                            <a class="btn btn-primary" href="{{ route('libros.index') }}"> {{ __('Back') }}</a>
+                            <span class="card-title">{{ __('Ver') }} Libro: {{ $libro->nombreLibro }} </span>
                         </div>
                     </div>
 
                     <div class="card-body">
-                        
                         <div class="form-group">
-                            <strong>Idlibro:</strong>
-                            {{ $libro->idLibro }}
-                        </div>
-                        <div class="form-group">
-                            <strong>Idcategoria:</strong>
-                            {{ $libro->idCategoria }}
-                        </div>
-                        <div class="form-group">
-                            <strong>Nombrelibro:</strong>
+                            <strong>Nombre:</strong>
                             {{ $libro->nombreLibro }}
                         </div>
                         <div class="form-group">
-                            <strong>Autorlibro:</strong>
+                            <strong>Categoría:</strong>
+                            {{ $libro->categoria->nombreCategoria }}
+                        </div>
+                        <div class="form-group">
+                            <strong>Autor:</strong>
                             {{ $libro->autorLibro }}
                         </div>
                         <div class="form-group">
-                            <strong>Descripcionlibro:</strong>
+                            <strong>Descripción :</strong>
                             {{ $libro->descripcionLibro }}
                         </div>
-
                     </div>
+                </div>
+                <div class="float-right">
+                    <a class="btn btn-primary my-5" href="{{ route('libros.index') }}"> {{ __('Volver') }}</a>
                 </div>
             </div>
         </div>

@@ -13,14 +13,15 @@
 
                 <div class="card card-default">
                     <div class="card-header">
-                        <span class="card-title">{{ __('Create') }} Libro</span>
+                        <span class="card-title">{{ __('Nuevo') }} Libro</span>
                     </div>
                     <div class="card-body">
                         <form method="POST" action="{{ route('libros.store') }}"  role="form" enctype="multipart/form-data">
                             @csrf
-
                             @include('libro.form')
-
+                            <div class="box-footer mt20">
+                                <button type="submit" class="btn btn-primary">{{ __('Añadir Libro') }}</button>
+                            </div>
                         </form>
                     </div>
                 </div>

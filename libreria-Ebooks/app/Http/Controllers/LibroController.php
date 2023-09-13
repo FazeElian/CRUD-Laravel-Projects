@@ -51,7 +51,7 @@ class LibroController extends Controller
         $libro = Libro::create($request->all());
 
         return redirect()->route('libros.index')
-            ->with('success', 'Libro created successfully.');
+            ->with('success', 'Libro añadido con éxito');
     }
 
     /**
@@ -95,7 +95,7 @@ class LibroController extends Controller
         $libro->update($request->all());
 
         return redirect()->route('libros.index')
-            ->with('success', 'Libro updated successfully');
+            ->with('success', 'Libro actualizado con éxito');
     }
 
     /**
@@ -108,6 +108,6 @@ class LibroController extends Controller
         $libro = Libro::find($id)->delete();
 
         return redirect()->route('libros.index')
-            ->with('success', 'Libro deleted successfully');
+            ->with('success', 'Libro eliminado con éxito');
     }
 }
